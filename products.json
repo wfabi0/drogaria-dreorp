@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Frauda Pampers 20U M",
+        "image": "https://i.imgur.com/hDRTlyl.png",
+        "description": "Frauda Pampers pants M ajuste total com 20 unidades.",
+        "price": "29,99",
+        "newPrice": "26,99",
+        "promotion": true,
+        "category": "Higiene Infantil"
+    },
+    {
+        "title": "Escova Dental Oral-B Classic",
+        "image": "https://i.imgur.com/kB9sl5a.png",
+        "description": "Escova Dental Oral-B Classic leve 3 pague 2.",
+        "price": "20,39",
+        "newPrice": "18,69",
+        "promotion": true,
+        "category": "Escovas de dentes"
+    },
+    {
+        "title": "Sabonete Palmolive Naturals Aloe e Oliva",
+        "image": "https://i.imgur.com/n0JN4Dh.png",
+        "description": "Sabonete Palmolive Naturals Aloe & Oliva 90g.",
+        "price": "2,75",
+        "newPrice": "1,99",
+        "promotion": true,
+        "category": "Beleza"
+    },
+    {
+        "title": "Loção Deo-Hidratante Corporal Milk",
+        "image": "https://i.imgur.com/pn5Ccsc.png",
+        "description": "Loção Deo-Hidratante Corporal Nivea Milk Frasco 400ml.",
+        "price": "30,38",
+        "newPrice": "24,78",
+        "promotion": false,
+        "category": "Beleza"
+    },
+    {
+        "title": "Creme Dental Oral-B 123",
+        "image": "https://i.imgur.com/0v6yceg.png",
+        "description": "Creme dental Oral-B 123 limpeza profunda 70g.",
+        "price": "3,99",
+        "newPrice": "3,37",
+        "promotion": true,
+        "category": "Escovas de dentes"
+    }
+]
