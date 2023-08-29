@@ -21,9 +21,9 @@ export default function Home() {
         className="py-10 flex flex-col justify-center items-center"
         id="promoções"
       >
-        <div id="promoTitle" className="">
+        <div id="promoTitle" className="self-start pl-36">
           <Link href={"/promocoes"}>
-            <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pr-[65rem] pb-10">
+            <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pb-10">
               <BoltIcon className="w-14 h-14 text-purple-700" /> Promoções
             </h1>
           </Link>
@@ -52,9 +52,9 @@ export default function Home() {
         className="flex items-center justify-center flex-col py-12 border-y-4 border-transparent border-t-purple-700 border-b-purple-700 bg-gray-400 bg-opacity-5"
         id="categorias"
       >
-        <div className="pb-14">
+        <div className="pb-14 self-start pl-36">
           <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pr-[65rem]">
-            <FolderOpenIcon className="w-14 h-14 text-purple-700 mr-1.5" />{" "}
+            <FolderOpenIcon className="w-14 h-14 text-purple-700 mr-1.5" />
             Categorias
           </h1>
         </div>
@@ -77,12 +77,12 @@ export default function Home() {
           <CategoryCard
             title="Escovas de dentes"
             image="https://i.imgur.com/oU0q4BL.jpg"
-            id="escovas"
+            id="escovas de dentes"
           />
           <CategoryCard
             title="Higiene Infantil"
             image="https://i.imgur.com/czjVVsr.jpg"
-            id="infantil"
+            id="higiene infantil"
           />
         </div>
       </div>
@@ -90,9 +90,9 @@ export default function Home() {
         className="py-12 flex flex-col justify-center items-center"
         id="produtos"
       >
-        <div className="pr-[65rem]">
+        <div className="self-start pl-36">
           <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2">
-            <ShoppingCartIcon className="w-14 h-14 text-purple-700 mr-1.5" />{" "}
+            <ShoppingCartIcon className="w-14 h-14 text-purple-700 mr-1.5" />
             Produtos
           </h1>
         </div>

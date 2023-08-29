@@ -26,7 +26,7 @@ export default function ProductCard({
             alt={title}
             fill
             sizes="100%"
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "contain" }}
           />
         </Link>
       </div>

@@ -44,7 +44,7 @@ export default function AddToCartButton({ title }: ProductCardProps) {
   };
 
   return (
-    <div>
+    <div key={title}>
       <button
         className="mt-4 bg-purple-700 text-white py-2 px-4 rounded-full transition-colors duration-300 ease-in-out hover:bg-purple-800 bottom-0"
         onClick={() => handleAddToCart(title)}

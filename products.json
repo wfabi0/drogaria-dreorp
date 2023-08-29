@@ -6,7 +6,7 @@
         "price": "29,99",
         "newPrice": "26,99",
         "promotion": true,
-        "category": "Higiene Infantil"
+        "category": "higiene infantil"
     },
     {
         "title": "Escova Dental Oral-B Classic",
@@ -15,7 +15,7 @@
         "price": "20,39",
         "newPrice": "18,69",
         "promotion": true,
-        "category": "Escovas de dentes"
+        "category": "escovas de dentes"
     },
     {
         "title": "Sabonete Palmolive Naturals Aloe e Oliva",
@@ -24,7 +24,7 @@
         "price": "2,75",
         "newPrice": "1,99",
         "promotion": true,
-        "category": "Beleza"
+        "category": "beleza"
     },
     {
         "title": "Loção Deo-Hidratante Corporal Milk",
@@ -33,7 +33,7 @@
         "price": "30,38",
         "newPrice": "24,78",
         "promotion": false,
-        "category": "Beleza"
+        "category": "beleza"
     },
     {
         "title": "Creme Dental Oral-B 123",
@@ -42,7 +42,7 @@
         "price": "3,99",
         "newPrice": "3,37",
         "promotion": true,
-        "category": "Escovas de dentes"
+        "category": "escovas de dentes"
     },
     {
         "title": "Dipirona Monoidratada 50mgL",
@@ -51,7 +51,7 @@
         "price": "15,11",
         "newPrice": "14,44",
         "promotion": false,
-        "category": "Remedios"
+        "category": "remedios"
     },
     {
         "title": "Cimegripe Gotas Sabor Laranja 20mL",
@@ -60,16 +60,34 @@
         "price": "13,59",
         "newPrice": "14,44",
         "promotion": true,
-        "category": "Remedios"
+        "category": "remedios"
+    },
+    {
+        "title": "Lenços Umedecidos Pampers",
+        "image": "https://i.imgur.com/crrIhRk.png",
+        "description": "Lenços Umedecidos Com Cheirinho de Lavanda.",
+        "price": "18,59",
+        "newPrice": "14,44",
+        "promotion": true,
+        "category": "higiene infantil"
+    },
+    {
+        "title": "Rexona Aero Men 150ml",
+        "image": "https://i.imgur.com/yzk2VVx.png",
+        "description": "Desodorante Rexona Aero 150ML Men Antibacteria Invisible.",
+        "price": "14,99",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "desodorantes"
     },
     {
         "title": "Dorflex Gotas 20mL",
-        "image": "https://i.imgur.com/ohrkGG0.png",
+        "image": "https://i.imgur.com/pR2hQLH.png",
         "description": "Dorflex age na dor, relaxa a tensão muscular1 e dura por 2 horas.",
         "price": "16,34",
         "newPrice": "14,44",
         "promotion": true,
-        "category": "Remedios"
+        "category": "remedios"
     },
     {
         "title": "Advil Ibuporofeno 400mg 16U",
@@ -78,7 +96,25 @@
         "price": "40,24",
         "newPrice": "14,44",
         "promotion": false,
-        "category": "Remedios"
+        "category": "remedios"
+    },
+    {
+        "title": "Rexona Aero Fem 150ml",
+        "image": "https://i.imgur.com/p6yI1tT.png",
+        "description": "Rexona Aero Fem 150ml sem perfume.",
+        "price": "13,58",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "desodorantes"
+    },
+    {
+        "title": "Rexona Aeros Men 150ml",
+        "image": "https://i.imgur.com/GdgAYHw.png",
+        "description": "Desodorante Antitranspirante Aerosol Rexona Men Motionsense 150ml",
+        "price": "13,58",
+        "newPrice": "11,99",
+        "promotion": false,
+        "category": "desodorantes"
     },
     {
         "title": "Paracetamol 15mL",
@@ -87,7 +123,7 @@
         "price": "7,86",
         "newPrice": "14,44",
         "promotion": false,
-        "category": "Remedios"
+        "category": "remedios"
     },
     {
         "title": "Loratadina 100mL",
@@ -96,15 +132,69 @@
         "price": "23,40",
         "newPrice": "14,44",
         "promotion": false,
-        "category": "Remedios"
+        "category": "remedios"
     },
     {
         "title": "Neoperidin Pastilha",
         "image": "https://i.imgur.com/udVXnJj.png",
-        "description": "Destinado ao alívio rápido e temporário das dores e irritações da boca e da garganta",
+        "description": "Destinado ao alívio rápido e temporário das dores e irritações da boca e da garganta.",
         "price": "23,40",
         "newPrice": "14,44",
         "promotion": false,
-        "category": "Remedios"
+        "category": "remedios"
+    },
+    {
+        "title": "Rexona Roll-On Powder Dry 50ml",
+        "image": "https://i.imgur.com/cnk13Ua.png",
+        "description": "Antitranspirante Roll-On Powder Dry Rexona Motionsense 50ml.",
+        "price": "11,98",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "desodorantes"
+    },
+    {
+        "title": "Caixa de Bombom Garoto",
+        "image": "https://i.imgur.com/OyMrRzZ.png",
+        "description": "Bombons Garoto sortido de chocolate.",
+        "price": "9,99",
+        "newPrice": "9,99",
+        "promotion": false,
+        "category": "chocolates"
+    },
+    {
+        "title": "Caixa de Bombom Nestlé",
+        "image": "https://i.imgur.com/a6EuqzW.png",
+        "description": "Bombons Neslé sortidos de chocolate.",
+        "price": "12,69",
+        "newPrice": "9,99",
+        "promotion": false,
+        "category": "chocolates"
+    },
+    {
+        "title": "Caixa de Bombom Lacta",
+        "image": "https://i.imgur.com/JjvDeSP.png",
+        "description": "Bombons Lacta sortidos de chocolate.",
+        "price": "11,56",
+        "newPrice": "9,99",
+        "promotion": false,
+        "category": "chocolates"
+    },
+    {
+        "title": "Bombom Ferrero Rocher 12U",
+        "image": "https://i.imgur.com/w3YkgBf.png",
+        "description": "Bombons Ferrero 150g, 12U.",
+        "price": "49,79",
+        "newPrice": "9,99",
+        "promotion": false,
+        "category": "chocolates"
+    },
+    {
+        "title": "Bombom Ferrero Rocher 24U",
+        "image": "https://i.imgur.com/40MaVwY.png",
+        "description": "Bombons Ferrero 300g, 12U.",
+        "price": "135,34",
+        "newPrice": "119,81",
+        "promotion": true,
+        "category": "chocolates"
     }
 ]
