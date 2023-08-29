@@ -16,7 +16,7 @@ export default function ProductCard({
 }: ProductCardProps) {
   return (
     <div
-      className="bg-slate-100 shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-xl w-full h-full"
+      className="bg-slate-100 shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-xl w-full h-full flex flex-col"
       id={key?.toString()}
     >
       <div className="h-96 w-full relative">
@@ -30,11 +30,13 @@ export default function ProductCard({
           />
         </Link>
       </div>
-      <div className="p-6">
+      <div className="p-6 flex-grow flex-col">
         <h3 className="text-gray-900 font-semibold text-[1.7rem] mb-2 flex flex-row text-center items-center justify-center">
           {title}
         </h3>
         <p className="text-gray-600 text-[1.2rem] mb-4">{description}</p>
+      </div>
+      <div className="p-6 pt-0">
         <p className="text-purple-700 font-semibold text-[2rem] flex text-center items-center justify-center">
           {promotion ? (
             <FireIcon
@@ -46,9 +48,6 @@ export default function ProductCard({
           )}{" "}
           R${promotion ? newPrice : price}
         </p>
-        {/* <button className="mt-4 bg-purple-700 text-white py-2 px-4 rounded-full transition-colors duration-300 ease-in-out hover:bg-purple-800 bottom-0">
-          Adicionar ao carrinho
-        </button> */}
         <AddToCartButton
           title={title}
           category={category}

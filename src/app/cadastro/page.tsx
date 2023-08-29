@@ -1,6 +1,8 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
-export default function Cadastro() {
+export default function SignIn() {
   return (
     <main className="flex min-h-screen flex-col bg-zinc-800 text-black">
       <Navbar />
@@ -65,21 +67,27 @@ export default function Cadastro() {
                 required
               />
             </div>
-            <div className="mb-4">
+            <div className="mb-2">
               <label className="block text-[1.1rem] font-medium">
                 <input type="checkbox" className="mr-1" required />
                 Eu concordo com os termos
               </label>
             </div>
+            <div className="mb-4">
+              <Link className="text-zinc-800" href={"/login"}>
+                Já possui uma conta? Clique aqui
+              </Link>
+            </div>
             <button
               type="submit"
               className="w-full bg-purple-700 text-white py-2 rounded-sm hover:bg-purple-800"
             >
-              Enviar Cadastro
+              ENVIAR CADASTRO
             </button>
           </form>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

@@ -43,5 +43,68 @@
         "newPrice": "3,37",
         "promotion": true,
         "category": "Escovas de dentes"
+    },
+    {
+        "title": "Dipirona Monoidratada 50mgL",
+        "image": "https://i.imgur.com/rFBKPs2.png",
+        "description": "Dipirona monoidratada 50mg/L uso oral.",
+        "price": "15,11",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "Remedios"
+    },
+    {
+        "title": "Cimegripe Gotas Sabor Laranja 20mL",
+        "image": "https://i.imgur.com/0ncUh0T.png",
+        "description": "Cimegripe Gotas Sabor Laranja 20ml para congestão nasal, coriza, febre, dor de cabeça e dores musculares presentes nos estados gripais.",
+        "price": "13,59",
+        "newPrice": "14,44",
+        "promotion": true,
+        "category": "Remedios"
+    },
+    {
+        "title": "Dorflex Gotas 20mL",
+        "image": "https://i.imgur.com/ohrkGG0.png",
+        "description": "Dorflex age na dor, relaxa a tensão muscular1 e dura por 2 horas.",
+        "price": "16,34",
+        "newPrice": "14,44",
+        "promotion": true,
+        "category": "Remedios"
+    },
+    {
+        "title": "Advil Ibuporofeno 400mg 16U",
+        "image": "https://i.imgur.com/qVEdYrk.png",
+        "description": "ADVIL 400MG 16 CAPS",
+        "price": "40,24",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "Remedios"
+    },
+    {
+        "title": "Paracetamol 15mL",
+        "image": "https://i.imgur.com/fSE0BVj.png",
+        "description": "Paracetamol 200MG/ML Solução oral e frasco com 15mL.",
+        "price": "7,86",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "Remedios"
+    },
+    {
+        "title": "Loratadina 100mL",
+        "image": "https://i.imgur.com/m4XFlfD.png",
+        "description": "Indicado para o tratamento da pressão arterial elevada.",
+        "price": "23,40",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "Remedios"
+    },
+    {
+        "title": "Neoperidin Pastilha",
+        "image": "https://i.imgur.com/udVXnJj.png",
+        "description": "Destinado ao alívio rápido e temporário das dores e irritações da boca e da garganta",
+        "price": "23,40",
+        "newPrice": "14,44",
+        "promotion": false,
+        "category": "Remedios"
     }
 ]

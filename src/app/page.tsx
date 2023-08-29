@@ -11,6 +11,7 @@ import { Categories, ProductCardProps } from "@/utils/types";
 import ProductCard from "@/components/ProductCard";
 import selectRandom from "@/utils/selectRandom";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,9 +22,11 @@ export default function Home() {
         id="promoções"
       >
         <div id="promoTitle" className="">
-          <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pr-[65rem] pb-10">
-            <BoltIcon className="w-14 h-14 text-purple-700" /> Promoções
-          </h1>
+          <Link href={"/promocoes"}>
+            <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pr-[65rem] pb-10">
+              <BoltIcon className="w-14 h-14 text-purple-700" /> Promoções
+            </h1>
+          </Link>
         </div>
         <div className="grid grid-cols-4 gap-8 px-6 text-center items-center">
           {(
@@ -62,9 +65,9 @@ export default function Home() {
             id="desodorantes"
           />
           <CategoryCard
-            title="Vitaminas"
-            image="https://i.imgur.com/9SIJBJy.jpg"
-            id="vitaminas"
+            title="Remedios"
+            image="https://i.imgur.com/TmztHz5.jpg"
+            id="remedios"
           />
           <CategoryCard
             title="Chocolates"

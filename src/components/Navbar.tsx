@@ -29,7 +29,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link href="/#promoções" className="hover:text-indigo-300">
+              <Link href="/promocoes" className="hover:text-indigo-300">
                 Promoções
               </Link>
             </li>
@@ -43,7 +43,7 @@ export default function Navbar() {
               </button>
               <input
                 type="text"
-                placeholder="Barra de pesquisa"
+                placeholder="Pesquisar"
                 className="w-full py-3 pl-12 pr-4 text-black border rounded-md outline-none bg-gray-50 focus:bg-white focus:border-indigo-600 placeholder-gray-500"
               />
             </div>

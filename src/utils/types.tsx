@@ -25,9 +25,15 @@ export interface NotificationProps {
   index: number;
 }
 
+export interface NotificationButtonProps {
+  title: string;
+  button: string;
+  className: string;
+}
+
 export type Categories =
   | "Desodorantes"
-  | "Vitaminas"
+  | "Remedios"
   | "Chocolates"
   | "Escovas de dentes"
   | "Higiene Infantil"
