@@ -13,9 +13,9 @@ export default function PromoCard({
   key,
 }: ProductCardProps) {
   return (
-    <Link href={`/produto/${title}`} className="">
+    <Link href={`/produto/${title}`} className="h-full w-full">
       <div
-        className="rounded-3xl overflow-hidden shadow-2xl border-2 border-zinc-400 transform transition-transform hover:scale-105 bg-slate-100 hover:border-4 hover:border-purple-700 h-full w-full"
+        className="rounded-3xl overflow-hidden shadow-2xl border-2 border-zinc-400 transform transition-transform hover:scale-105 bg-slate-100 hover:border-4 hover:border-purple-700 h-full w-full flex flex-col"
         id={key?.toString()}
       >
         <div className="h-96 w-full relative">
@@ -27,17 +27,17 @@ export default function PromoCard({
             style={{ objectFit: "cover" }}
           />
         </div>
-        <div className="p-4">
+        <div className="flex flex-col flex-grow p-4">
           <h3 className="text-gray-700 font-semibold text-[1.7rem] mb-2">
             {title}
           </h3>
           <p className="text-gray-500 text-[1.2rem]">{description}</p>
-          <span className="flex flex-row text-center justify-evenly gap-4 items-center">
-            <p className="text-red-600 decoration-2 line-through text-[1.65rem]">
-              R${price}
-            </p>
-            <p className="text-black text-[2rem]">R${newPrice}</p>
-          </span>
+        </div>
+        <div className="p-4 flex items-center justify-center space-x-10">
+          <p className="text-red-600 decoration-2 line-through text-[1.65rem]">
+            R${price}
+          </p>
+          <p className="text-black text-[2rem]">R${newPrice}</p>
         </div>
       </div>
     </Link>

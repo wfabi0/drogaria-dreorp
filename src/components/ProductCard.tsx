@@ -30,7 +30,7 @@ export default function ProductCard({
           />
         </Link>
       </div>
-      <div className="p-6 mx-auto flex flex-col justify-between">
+      <div className="p-6">
         <h3 className="text-gray-900 font-semibold text-[1.7rem] mb-2 flex flex-row text-center items-center justify-center">
           {title}
         </h3>

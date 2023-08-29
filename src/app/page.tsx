@@ -17,10 +17,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-zinc-800 text-white">
       <Navbar />
       <div
-        className="flex flex-col items-center py-10 justify-center"
+        className="py-10 flex flex-col justify-center items-center"
         id="promoções"
       >
-        <div id="promoTitle" className="flex flex-row items-center">
+        <div id="promoTitle" className="">
           <h1 className="flex text-[2.5rem] italic underline decoration-purple-700 decoration-2 pr-[65rem] pb-10">
             <BoltIcon className="w-14 h-14 text-purple-700" /> Promoções
           </h1>
