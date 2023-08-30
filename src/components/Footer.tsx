@@ -21,6 +21,13 @@ export default function Footer() {
             >
               wfabi0
             </Link>
+            {" e "}
+            <Link
+              className="hover:text-indigo-300"
+              href={"https://github.com/jonathan-wallaces"}
+            >
+              jonathan-wallaces
+            </Link>
             .
           </p>
           <Link href={"https://www.sje.ifmg.edu.br/portal/"} className="text-sm pt-4 hover:text-lime-300 text-slate-300 flex items-center gap-2 text-center justify-center">
